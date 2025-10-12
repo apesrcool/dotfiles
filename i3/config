@@ -32,7 +32,6 @@ exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 exec_always --no-startup-id bash -c 'sleep 2 && xinput set-prop "FTCS0038:00 2808:0106 Touchpad" "libinput Tapping Button Mapping Enabled" 1, 0'
 # NetworkManager is the most popular way to manage wireless networks on Linux,
 # and nm-applet is a desktop environment-independent system tray GUI for it.
-exec --no-startup-id nm-applet
 bindsym Print exec flameshot gui
 
 # Use pactl to adjust volume in PulseAudio.
@@ -190,4 +189,4 @@ exec_always --no-startup-id blueman-applet
 for_window [class="Nm-connection-editor"] floating enable, resize set 800 600, move position center
 for_window [class="Blueman-manager"] floating enable, resize set 800 600, move position center
 for_window [class="Pcmanfm"] floating enable, resize set 800 600, move position center
-
+for_window [class="Cheese"] floating enable, resize set 800 600, move position center
