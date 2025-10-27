@@ -190,3 +190,4 @@ for_window [class="Nm-connection-editor"] floating enable, resize set 800 600, m
 for_window [class="Blueman-manager"] floating enable, resize set 800 600, move position center
 for_window [class="Pcmanfm"] floating enable, resize set 800 600, move position center
 for_window [class="Cheese"] floating enable, resize set 800 600, move position center
+for_window [class="discord"] floating enable, resize set 800 600, move position center
